@@ -1,0 +1,15 @@
+# libspeex pkg-config source file
+
+prefix=/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64
+exec_prefix=/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64/bin
+libdir=/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64/lib
+includedir=/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64/include
+
+Name: speex
+Description: Speex is an audio codec tuned for speech
+Version: 1.2rc1
+Requires:
+Conflicts:
+Libs: -L/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64/lib -lspeex
+Libs.private: -lm
+Cflags: -I/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64/include

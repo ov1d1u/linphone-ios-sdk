@@ -1,0 +1,13 @@
+# This is a comment
+prefix=/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64
+exec_prefix=/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64/bin
+includedir=/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64/include
+
+Name: belle-sip 
+Description: A c based implementation of the SIP (RFC 3261)  telephony protocol 
+Requires: bctoolbox
+Requires.private:  
+Version: 5.4.0
+Libs: -L/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64/lib -lbellesip
+Libs.private: 
+Cflags: -I/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64/include 

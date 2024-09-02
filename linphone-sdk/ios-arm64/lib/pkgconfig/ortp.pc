@@ -1,0 +1,10 @@
+# This is a comment
+prefix=/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64
+exec_prefix=/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64/bin
+includedir=/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64/include
+
+Name: oRTP 
+Description: Implement the RFC3550 (RTP) with a easy to use API with high and low level access.
+Version: 5.4.0
+Libs: -L/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64/lib -lortp 
+Cflags: -I/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64/include 

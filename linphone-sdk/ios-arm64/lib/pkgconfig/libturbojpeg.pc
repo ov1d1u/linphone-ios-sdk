@@ -1,0 +1,10 @@
+prefix=/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64
+exec_prefix=/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64
+libdir=/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64/lib
+includedir=/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64/include
+
+Name: libturbojpeg
+Description: A SIMD-accelerated JPEG codec that provides the TurboJPEG API
+Version: 3.0.3
+Libs: -L${libdir} -lturbojpeg
+Cflags: -I${includedir}

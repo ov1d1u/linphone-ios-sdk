@@ -1,0 +1,16 @@
+# Opus codec reference implementation pkg-config file
+
+prefix=/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64
+exec_prefix=/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64
+libdir=/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64/lib
+includedir=/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64/include
+
+Name: Opus
+Description: Opus IETF audio codec ( build)
+URL: https://opus-codec.org/
+Version: 0.8.0
+Requires:
+Conflicts:
+Libs: -L/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64/lib -lopus
+Libs.private: -lm
+Cflags: -I/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64/include/opus

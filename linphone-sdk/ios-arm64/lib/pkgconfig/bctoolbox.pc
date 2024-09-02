@@ -1,0 +1,10 @@
+# This is a comment
+prefix=/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64
+exec_prefix=/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64
+
+Name:  bctoolbox
+Description: A common set of tools used by Belledonne Communication's softwares
+Version: 5.4.0
+Libs: -L/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64/lib -lbctoolbox
+Libs.private: 
+Cflags: -I/Users/ovidiu/Projects/linphone-sdk/build-ios/linphone-sdk/ios-arm64/include
