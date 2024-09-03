@@ -99,6 +99,8 @@ struct _MSVideoDisplayDecodingSupport {
 /**Create a platform dependant window id where the video can be drawn */
 #define MS_VIDEO_DISPLAY_CREATE_NATIVE_WINDOW_ID MS_FILTER_METHOD(MSFilterVideoDisplayInterface, 13, void *)
 
+#define MS_VIDEO_DISPLAY_PROCESS_FRAME MS_FILTER_METHOD(MSFilterVideoDisplayInterface, 14, void *)
+
 /**triggered whenever the filter API throws errors*/
 #define MS_VIDEO_DISPLAY_ERROR_OCCURRED MS_FILTER_EVENT(MSFilterVideoDisplayInterface, 0, int)
 

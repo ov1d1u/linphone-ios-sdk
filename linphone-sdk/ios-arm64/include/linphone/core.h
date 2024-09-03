@@ -4066,6 +4066,8 @@ LINPHONE_PUBLIC const LinphoneVideoDefinition *linphone_core_get_preferred_video
  **/
 LINPHONE_PUBLIC void linphone_core_set_preferred_framerate(LinphoneCore *core, float fps);
 
+LINPHONE_PUBLIC void linphone_core_process_cvimage_buffer(LinphoneCore *lc, void *buffer);
+
 /**
  * Returns the preferred video framerate, previously set by linphone_core_set_preferred_framerate().
  * @param core the linphone core @notnil
