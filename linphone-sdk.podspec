@@ -696,7 +696,7 @@ LICENSE
     }
   s.author       = { 'Belledonne Communications SARL' => 'linphone-iphone@belledonne-communications.com' }
   s.platform     = :ios, "13.0"
-  s.source       = { :http => "https://retrocode.eu/telio/linphone-sdk-5.4.0-alpha.360+fbc5a6c9.zip" }
+  s.source       = { :http => "https://retrocode.eu/telio/linphone-sdk-5.4.0-alpha.360+fbc5a6ca.zip" }
   s.vendored_frameworks = "linphone-sdk/apple-darwin/XCFrameworks/**"
   s.pod_target_xcconfig = { 'VALID_ARCHS' => "arm64" }
   s.user_target_xcconfig = { 'VALID_ARCHS' => "arm64" }
