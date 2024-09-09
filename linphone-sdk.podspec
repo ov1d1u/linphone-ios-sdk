@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "linphone-sdk"
-  s.version      = "5.4.0-alpha.360+fbc5a6cc"
+  s.version      = "5.4.0-alpha.361"
   s.summary      = "Liblinphone is a library to create VoIP and IM apps, based on SIP protocol."
   s.description  = <<-PODSPEC_DESC
 Enabled features:
@@ -696,7 +696,7 @@ LICENSE
     }
   s.author       = { 'Belledonne Communications SARL' => 'linphone-iphone@belledonne-communications.com' }
   s.platform     = :ios, "13.0"
-  s.source       = { :http => "https://retrocode.eu/telio/linphone-sdk-5.4.0-alpha.360+fbc5a6cc.zip" }
+  s.source       = { :http => "https://retrocode.eu/telio/linphone-sdk-5.4.0-alpha.361.zip" }
   s.vendored_frameworks = "linphone-sdk/apple-darwin/XCFrameworks/**"
   s.pod_target_xcconfig = { 'VALID_ARCHS' => "arm64" }
   s.user_target_xcconfig = { 'VALID_ARCHS' => "arm64" }
