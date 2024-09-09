@@ -264,6 +264,8 @@ MS2_PUBLIC const char *ms_static_image_get_default_image(void);
 /** method for the "nowebcam" filter */
 #define MS_STATIC_IMAGE_SET_IMAGE MS_FILTER_METHOD(MS_STATIC_IMAGE_ID, 0, const char)
 
+#define MS_STATIC_IMAGE_SET_IMAGE_BYTES MS_FILTER_METHOD(MS_STATIC_IMAGE_ID, 1, const char)
+
 #ifdef __cplusplus
 }
 #endif

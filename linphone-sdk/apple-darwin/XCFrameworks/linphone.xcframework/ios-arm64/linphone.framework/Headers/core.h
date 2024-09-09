@@ -4203,6 +4203,8 @@ LINPHONE_PUBLIC const char *linphone_core_get_video_device(const LinphoneCore *c
  */
 LINPHONE_PUBLIC LinphoneStatus linphone_core_set_static_picture(LinphoneCore *core, const char *path);
 
+LINPHONE_PUBLIC LinphoneStatus linphone_core_set_static_picture_jpegdata(LinphoneCore *lc, const void *arg);
+
 /**
  * Get the path to the image file streamed when "Static picture" is set as the video device.
  * @param core #LinphoneCore object. @notnil
